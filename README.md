@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple Job Listing Application built using **React with TypeScript**. The app displays a list of available jobs and allows users to toggle job details. If no jobs are available, an appropriate message is shown.
+This is a simple Job Listing Application built using **React with TypeScript**. The app displays a list of available jobs and allows users to search job details. If no jobs are available, an appropriate message is shown.
 
 ## Features
 
@@ -28,7 +28,6 @@ Ensure you have node installed.
 
 ```sh
 git clone https://github.com/Okpara202/JobListing-app.git
-cd JOBLISTING
 ```
 
 ### 2. Install dependencies
