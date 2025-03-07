@@ -184,6 +184,10 @@ main section:nth-child(2) {
 
 .card:hover {
   scale: 1.1;
+
+  @media (max-width: 600px) {
+    scale: 1;
+  }
 }
 
 .card-header {

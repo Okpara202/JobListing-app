@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+# Job Listing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple Job Listing Application built using **React with TypeScript**. The app displays a list of available jobs and allows users to toggle job details. If no jobs are available, an appropriate message is shown.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Job List Display:** Renders a list of jobs from a json file.
+- **Job Card Component:** Each job is displayed as a card with job details.
+- **Conditional Rendering:**
+  - If jobs are available, they are listed.
+  - If no jobs are available, a message is displayed.
+- **Toggle Job Details:** Users can click a button to reveal or hide additional job information.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- React
+- TypeScript
+- Vite (optional, for project setup)
+- CSS (for styling)
+
+## Installation and Setup
+
+Ensure you have node installed.
+
+### 1. Clone the repository
+
+```sh
+git clone https://github.com/Okpara202/JobListing-app.git
+cd JOBLISTING
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```sh
+npm install
 ```
+
+### 3. Start the application
+
+```sh
+npm run dev
+```
+
+## Usage
+
+- Open the application in the browser.
+- Subscribe to recieve job alert
+- View the list of available jobs.
+- Click the **"Details"** button to toggle additional job information.
+- Search for job by job title.
+- If there are no jobs in the dataset, a message will be displayed.
+
+## Example Job Data (data.json)
+
+```json
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "TechCorp Inc.",
+      "location": "New York, NY",
+      "salary": "120",
+      "description": "Develop and maintain web applications using modern frameworks.",
+      "requirements": [
+        "3+ years experience in software development",
+        "Proficiency in JavaScript, React, and Node.js",
+        "Strong problem-solving skills"
+      ],
+      "notes": ["Full time", "Senior level", "Flexible schedule", "Full Day"]
+    }
+  ]
+}
+```
+
+## Contributing
+
+Feel free to fork this repository, make improvements, and submit pull requests!
