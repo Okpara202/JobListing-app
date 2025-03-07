@@ -1,0 +1,462 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "TechCorp Inc.",
+      "location": "New York, NY",
+      "salary": "120",
+      "description": "Develop and maintain web applications using modern frameworks.",
+      "requirements": [
+        "3+ years experience in software development",
+        "Proficiency in JavaScript, React, and Node.js",
+        "Strong problem-solving skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Scientist",
+      "company": "DataWorks Ltd.",
+      "location": "San Francisco, CA",
+      "salary": "135",
+      "description": "Analyze large datasets and build predictive models.",
+      "requirements": [
+        "2+ years experience in data science",
+        "Experience with Python, TensorFlow, and SQL",
+        "Strong analytical and statistical skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Frontend Developer",
+      "company": "WebFlow",
+      "location": "Remote",
+      "salary": "110",
+      "description": "Develop and optimize user-facing applications.",
+      "requirements": [
+        "2+ years experience in frontend development",
+        "Proficiency in HTML, CSS, and JavaScript",
+        "Experience with React or Vue"
+      ],
+      "notes": [
+        "Full time",
+        "Flexible schedule",
+        "Distant",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Backend Developer",
+      "company": "API Solutions",
+      "location": "Seattle, WA",
+      "salary": "115",
+      "description": "Develop and maintain backend services and APIs.",
+      "requirements": [
+        "3+ years experience in backend development",
+        "Knowledge of Node.js, Express, and SQL databases",
+        "Experience with cloud platforms"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Fullstack Developer",
+      "company": "DevWorks",
+      "location": "Austin, TX",
+      "salary": "125",
+      "description": "Work on both frontend and backend components of web applications.",
+      "requirements": [
+        "3+ years experience in fullstack development",
+        "Experience with JavaScript, React, and Node.js",
+        "Understanding of RESTful APIs"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Marketing Specialist",
+      "company": "MarketPro",
+      "location": "Chicago, IL",
+      "salary": "75",
+      "description": "Develop marketing campaigns and analyze customer engagement.",
+      "requirements": [
+        "1+ year experience in marketing",
+        "Knowledge of digital marketing strategies",
+        "Excellent communication skills"
+      ],
+      "notes": [
+        "Full time",
+        "Junior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Backend Developer",
+      "company": "CloudCompute",
+      "location": "New York, NY",
+      "salary": "120",
+      "description": "Build scalable server-side applications and databases.",
+      "requirements": [
+        "3+ years experience in backend engineering",
+        "Proficiency in Java, Spring Boot, and MySQL",
+        "Experience with microservices architecture"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Frontend Developer",
+      "company": "CreativeTech",
+      "location": "Los Angeles, CA",
+      "salary": "108",
+      "description": "Design and develop visually appealing UI components.",
+      "requirements": [
+        "2+ years experience in frontend development",
+        "Experience with React, Redux, and TypeScript",
+        "Understanding of UX principles"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Project Manager",
+      "company": "Biz Solutions LLC",
+      "location": "Seattle, WA",
+      "salary": "110",
+      "description": "Manage projects, coordinate teams, and ensure timely delivery.",
+      "requirements": [
+        "3+ years experience in project management",
+        "Knowledge of Agile methodologies",
+        "Excellent leadership skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Backend Developer",
+      "company": "Scalable Systems",
+      "location": "San Francisco, CA",
+      "salary": "122",
+      "description": "Develop efficient and scalable backend architectures.",
+      "requirements": [
+        "4+ years experience in backend development",
+        "Experience with Python, Flask, and PostgreSQL",
+        "Familiarity with containerization and CI/CD"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Frontend Developer",
+      "company": "PixelPerfect",
+      "location": "Denver, CO",
+      "salary": "105",
+      "description": "Create interactive and responsive web applications.",
+      "requirements": [
+        "3+ years experience in frontend development",
+        "Proficiency in Angular and JavaScript",
+        "Experience with responsive design techniques"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Software Engineer",
+      "company": "TechCorp Inc.",
+      "location": "Boston, MA",
+      "salary": "120",
+      "description": "Build and optimize scalable web applications.",
+      "requirements": [
+        "3+ years experience in software engineering",
+        "Experience with React and Python",
+        "Strong debugging skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Project Manager",
+      "company": "Biz Solutions LLC",
+      "location": "Austin, TX",
+      "salary": "115",
+      "description": "Oversee software development projects and lead cross-functional teams.",
+      "requirements": [
+        "4+ years experience in project management",
+        "Agile and Scrum certification",
+        "Strong communication skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "UX Designer",
+      "company": "DesignCo",
+      "location": "San Diego, CA",
+      "salary": "95",
+      "description": "Design user-friendly interfaces for web and mobile applications.",
+      "requirements": [
+        "2+ years experience in UX design",
+        "Proficiency in Figma and Adobe XD",
+        "Understanding of user research methodologies"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Data Scientist",
+      "company": "Insight AI",
+      "location": "Boston, MA",
+      "salary": "140",
+      "description": "Research and deploy deep learning models for AI applications.",
+      "requirements": [
+        "3+ years experience in machine learning",
+        "Expertise in PyTorch and TensorFlow",
+        "Experience with big data platforms"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "DevOps Engineer",
+      "company": "InfraTech",
+      "location": "Houston, TX",
+      "salary": "130",
+      "description": "Implement and manage CI/CD pipelines and cloud infrastructure.",
+      "requirements": [
+        "3+ years experience in DevOps",
+        "Proficiency in Docker and Kubernetes",
+        "Experience with AWS or Azure"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Shift work"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Mobile App Developer",
+      "company": "AppGenix",
+      "location": "Miami, FL",
+      "salary": "115",
+      "description": "Develop and maintain mobile applications for iOS and Android.",
+      "requirements": [
+        "2+ years experience in mobile app development",
+        "Proficiency in Swift and Kotlin",
+        "Experience with RESTful APIs"
+      ],
+      "notes": [
+        "Full time",
+        "Junior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Database Administrator",
+      "company": "DataGuard",
+      "location": "Atlanta, GA",
+      "salary": "105",
+      "description": "Manage and optimize database systems for performance and security.",
+      "requirements": [
+        "3+ years experience in database administration",
+        "Proficiency in SQL and NoSQL databases",
+        "Experience with backup and recovery"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Shift work"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Cybersecurity Analyst",
+      "company": "SecureNet",
+      "location": "Washington, DC",
+      "salary": "125",
+      "description": "Monitor and protect systems from cyber threats and vulnerabilities.",
+      "requirements": [
+        "2+ years experience in cybersecurity",
+        "Knowledge of security protocols and tools",
+        "Strong analytical skills"
+      ],
+      "notes": [
+        "Full time",
+        "Junior level",
+        "Flexible schedule",
+        "Full Day"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "AI Research Scientist",
+      "company": "Innovative AI",
+      "location": "San Francisco, CA",
+      "salary": "145",
+      "description": "Conduct research and develop advanced AI algorithms and models.",
+      "requirements": [
+        "3+ years experience in AI research",
+        "Proficiency in Python and machine learning frameworks",
+        "Strong publication record"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Flexible schedule",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Product Manager",
+      "company": "ProductVision",
+      "location": "New York, NY",
+      "salary": "125",
+      "description": "Define product strategy and manage the product lifecycle.",
+      "requirements": [
+        "3+ years experience in product management",
+        "Knowledge of Agile methodologies",
+        "Excellent communication skills"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Cloud Architect",
+      "company": "CloudMasters",
+      "location": "Seattle, WA",
+      "salary": "140",
+      "description": "Design and implement scalable cloud solutions.",
+      "requirements": [
+        "4+ years experience in cloud architecture",
+        "Proficiency in AWS, Azure, or GCP",
+        "Experience with cloud security"
+      ],
+      "notes": [
+        "Full time",
+        "Senior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "QA Engineer",
+      "company": "QualityTech",
+      "location": "Dallas, TX",
+      "salary": "100",
+      "description": "Develop and execute test plans to ensure software quality.",
+      "requirements": [
+        "2+ years experience in QA engineering",
+        "Proficiency in automated testing tools",
+        "Strong attention to detail"
+      ],
+      "notes": [
+        "Full time",
+        "Junior level",
+        "Full Day",
+        "Project work"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Technical Support Engineer",
+      "company": "SupportPros",
+      "location": "Remote",
+      "salary": "90",
+      "description": "Provide technical support to customers and resolve issues.",
+      "requirements": [
+        "1+ year experience in technical support",
+        "Strong problem-solving skills",
+        "Excellent communication skills"
+      ],
+      "notes": [
+        "Full time",
+        "Junior level",
+        "Shift work",
+        "Distant"
+      ]
+    }
+  ]
+}
