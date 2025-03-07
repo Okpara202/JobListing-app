@@ -21,7 +21,7 @@ function JobCards({ job }: { job: Props }) {
   return (
     <div className="card">
       <div className={`card-header card-header${job.id}`}>
-        <p>{job.company}</p>
+        <p className="company">{job.company}</p>
         <h1>{job.title}</h1>
         {job.notes.map((note) => (
           <button className="card-header-btn" key={note}>

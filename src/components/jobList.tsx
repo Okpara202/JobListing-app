@@ -7,19 +7,23 @@ function JobList() {
   const [email, setEmail] = useState<string>("");
 
   const filteredJobs = jobData.jobs.filter((jobs) => {
+    // searches for specific job by title
     const matchSearch =
       !search || jobs.title.toLowerCase().includes(search.toLowerCase());
     return matchSearch;
   });
 
+  // Create cards for each job listing
   const jobs = filteredJobs.map((jobListings) => (
     <JobCards key={jobListings.id} job={jobListings} />
   ));
 
   const submit = (e: React.FormEvent<HTMLFormElement>) => {
+    // Handles email subscription to news letter
     e.preventDefault();
     alert(`${email} successfully subscribed`);
   };
+
   return (
     <>
       <header id="header">
@@ -45,10 +49,14 @@ function JobList() {
         <section>
           <div className="container">
             <h1>Find Your Dream Job in Tech</h1>
-            <p>We help you find exciting opportunities all around the world.</p>
-            <p>Have the best openings at your fingertips in your home</p>
+            <p>
+              We help you find exciting opportunities all around the world. Have
+              the best openings at your fingertips in your home
+            </p>
+
             <div>
               <form onSubmit={submit}>
+                {/* Newsletter email */}
                 <input
                   required
                   type="email"
@@ -67,6 +75,7 @@ function JobList() {
             <aside className="job-title">
               <h2>Newest Openings</h2>
               <div>
+                {/*for searching by role title */}
                 <input
                   className="search-input"
                   type="text"

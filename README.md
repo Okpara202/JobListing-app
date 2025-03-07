@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple Job Listing Application built using **React with TypeScript**. The app displays a list of available jobs and allows users to search job details. If no jobs are available, an appropriate message is shown.
+This is a simple Job Listing Application built using **React with TypeScript**. The app displays a list of available jobs and allows users to search for specific jobs. If no jobs are available, an appropriate message is shown.
 
 ## Features
 
