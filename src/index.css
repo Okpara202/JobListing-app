@@ -295,8 +295,7 @@ main section:nth-child(2) {
   font-size: 3rem;
   letter-spacing: 1.5px;
   margin-bottom: 40px;
-  animation: opening 3s ease-in-out infinite;
-  animation-fill-mode: both;
+  color: var(--head);
 }
 
 .zero-job {
@@ -343,6 +342,9 @@ footer {
   }
   50% {
     color: var(--deep-burgundy);
+  }
+  75% {
+    color: var(--text-color);
   }
   100% {
     color: var(--text-color);
