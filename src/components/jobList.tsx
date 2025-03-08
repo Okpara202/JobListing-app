@@ -28,7 +28,7 @@ function JobList() {
     <>
       <header id="header">
         <aside>
-          <h1>🚀 </h1>
+          <h1 className="logo">🚀 </h1>
           <h1>
             Dream <br /> Jobs
           </h1>

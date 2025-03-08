@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
+  font-family: Ponomar, sans-serif;
 }
 
 .btn:hover {
@@ -16,7 +16,9 @@
 a:hover {
   cursor: pointer;
   border-radius: 3px;
-  box-shadow: 0 0 3px var(--text-color);
+  box-shadow: 0 0 3px var(--yellow);
+  color: var(--yellow);
+  padding: 7px 12px;
 }
 
 :root {
@@ -28,6 +30,7 @@ a:hover {
   --teal: #008080;
   --deep-burgundy: #800200;
   --yellow: yellow;
+  --head-font: Pacifico;
 }
 
 html {
@@ -65,9 +68,15 @@ header {
   border-bottom: 1.5px solid rgb(150, 149, 149);
 }
 
+.logo {
+  animation: move 5s ease-in-out infinite;
+}
+
 header h1 {
   text-align: center;
-  color: var(--yellow);
+  animation: opening 5s ease-in-out infinite;
+  animation-fill-mode: both;
+  font-family: var(--head-font);
 }
 
 header aside h1 {
@@ -89,7 +98,9 @@ nav ul li a {
   text-decoration: none;
   color: var(--text-color);
   padding: 5px 10px;
-  transition: all 0.5s;
+  transition: all 0.8s;
+  border-radius: 3px;
+  box-shadow: 0 0 3px var(--text-color);
 }
 
 main {
@@ -254,7 +265,7 @@ main section:nth-child(2) {
 .company {
   margin-top: 10px;
   font-size: 1rem;
-  font-family: cursive;
+  font-family: var(--head-font);
 }
 
 .card-header h1 {
@@ -330,7 +341,19 @@ footer {
   0% {
     color: var(--charcoal-gray);
   }
-  100% {
+  50% {
     color: var(--deep-burgundy);
+  }
+  100% {
+    color: var(--text-color);
+  }
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

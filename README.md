@@ -6,11 +6,11 @@ This is a simple Job Listing Application built using **React with TypeScript**. 
 
 ## Features
 
-- **Job List Display:** Renders a list of jobs from a json file.
+- **Job List Display:** Renders a list of jobs exported from a json file (`database/data.json`).
 - **Job Card Component:** Each job is displayed as a card with job details.
 - **Conditional Rendering:**
   - If jobs are available, they are listed.
-  - If no jobs are available, a message is displayed.
+  - If no jobs are available, a relevant message is displayed.
 - **Toggle Job Details:** Users can click a button to reveal or hide additional job information.
 
 ## Technologies Used
@@ -47,9 +47,9 @@ npm run dev
 - Open the application in the browser.
 - Subscribe to recieve job alert
 - View the list of available jobs.
-- Click the **"Details"** button to toggle additional job information.
-- Search for job by job title.
-- If there are no jobs in the dataset, a message will be displayed.
+- Click the **"Details / Hide Details"** button to toggle additional job information.
+- Search for jobs by job title.
+- If there are no jobs available, a message will be displayed.
 
 ## Example Job Data (data.json)
 
