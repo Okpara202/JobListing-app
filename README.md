@@ -18,7 +18,7 @@ This is a simple Job Listing Application built using **React with TypeScript**. 
 - React
 - TypeScript
 - Vite (optional, for project setup)
-- CSS (for styling)
+- CSS (for styling and animation)
 
 ## Installation and Setup
 
